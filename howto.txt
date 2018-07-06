@@ -6,6 +6,9 @@ Git clone your repository into a folder you make.
 Install ruby and jekyll following the directions here
 https://jekyllrb.com/docs/windows/
 
+Get templates here: http://themes.jekyllrc.org/
+Download and unzip them in a directory/subdirectory of the directory that has the ".gem" (ruby)
+
 In a command prompt:
 a. Navigate to the folder your site is located in.
 b. bundle exec jekyll serve (produces the website on a local server... the output gives the address of the local server url)
