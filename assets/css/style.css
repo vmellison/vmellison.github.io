@@ -861,7 +861,9 @@
 			#nav > ul > li > a,
 			#nav > ul > li > span
 			{
-				display: inline-block;
+				display: inline;
+    				width: 100px;
+    				height: 100px;
 				padding: 1.5em 1.5em;
 				letter-spacing: 0.06em;
 				text-decoration: none;
