@@ -847,7 +847,9 @@
 
 		#nav > ul > li
 		{
-			display: inline-block;
+			display: inline;
+    			width: 100px;
+    			height: 100px;
 			border-right: 1px solid;
 			border-color: rgba(255,255,255,.1);
 		}
