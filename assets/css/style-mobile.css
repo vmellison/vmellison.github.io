@@ -136,7 +136,7 @@
 
 		#navPanel .link
 		{
-			display: block;
+			display: inline;
 			color: #888;
 			text-decoration: none;
 			height: 44px;
@@ -157,11 +157,11 @@
 				color: #fff;
 			}
 
-			#navPanel .indent-1 { display: inline-block; width: 1em; }
-			#navPanel .indent-2 { display: inline-block; width: 2em; }
-			#navPanel .indent-3 { display: inline-block; width: 3em; }
-			#navPanel .indent-4 { display: inline-block; width: 4em; }
-			#navPanel .indent-5 { display: inline-block; width: 5em; }
+			#navPanel .indent-1 { display: inline; width: 1em; }
+			#navPanel .indent-2 { display: inline; width: 2em; }
+			#navPanel .indent-3 { display: inline; width: 3em; }
+			#navPanel .indent-4 { display: inline; width: 4em; }
+			#navPanel .indent-5 { display: inline; width: 5em; }
 			#navPanel .depth-0 { color: #fff; }
 			
 /*********************************************************************************/
