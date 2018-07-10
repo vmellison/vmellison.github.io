@@ -326,12 +326,12 @@ hr {
 
 #two-columns #col1 {
 	float: right;
-	width: 740px;
+	width: 800px;
 }
 
 #two-columns #col2 {
 	float: left;
-	width: 320px;
+	width: 220px;
 }
 
 
