@@ -3,7 +3,7 @@ layout: page
 title: Syllabus
 ---
 
-##Course Overview
+## Course Overview
 
 ### Course goals & objectives:
 
@@ -49,7 +49,7 @@ You are expected to put in about 4-6 hours of work / week outside of class. Some
 
 
 
-##Graded Components
+## Graded Components
 
 ### Grading Breakdown:
 
@@ -159,7 +159,7 @@ You are required to bring your clicker to every lecture and it is your responsib
 
 * * *
 
-###Calculator: 
+### Calculator: 
 (optional) (just something that can do square roots)
 
 
@@ -212,7 +212,7 @@ Aside from the [your TAs' and the professor's office hours](/info/#oh), you can 
 
 * * *
 
-##Additional Course Information
+## Additional Course Information
 
 ### Students with disabilities:
 
