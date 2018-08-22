@@ -144,7 +144,7 @@ Team members will provide feedback on percentage contribution to the final produ
 
 * * *
 
-##Course Requirements and Resources
+## Course Requirements and Resources
 
 ### Book:
 OpenIntro Statistics, 3rd Edition: <a href="http://openintro.org/os"> http://openintro.org/os </a>
