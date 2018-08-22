@@ -196,7 +196,8 @@ Note that it is more efficient to answer most statistical questions ``in person"
 
 ### Sakai
 <a href="https://sakai.duke.edu/portal"> https://sakai.duke.edu/portal </a>
-Used for
+
+Used for:
 <div style="padding-left:2em;padding-top:1em;">
 <table style="width:550px;">
 <tr> <td> Problem Set Submission (individually)            </td></tr>
