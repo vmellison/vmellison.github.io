@@ -207,6 +207,10 @@ Used for:
 </table>
 </div>
 
+### DukeHub
+<a href="https://dukehub.duke.edu/"> https://dukehub.duke.edu/ </a>
+Class grades posted here.
+
 ### Other learning resources:
 
 Aside from the [your TAs' and the professor's office hours](/info/#oh), you can also make use of the [Academic Resource Center](http://web.duke.edu/arc). 
