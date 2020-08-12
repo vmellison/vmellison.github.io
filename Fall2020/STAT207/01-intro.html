@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : WaterDrop 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130505
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fall2020-STAT207-Syllabus</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+
+	<!-- end #header -->
+
+	<div id="banner"><img src="images/header-image-bg.jpg" width="1200" height="100" alt="" /></div>
+	<div id="two-columns">
+		<div class="content">
+			<div id="col2">
+        <h2>Class Resources</h2>
+        <ul class="list-style2">
+              <li><a href="https://vmellison.github.io/Fall2020/STAT207/syllabus.html">Syllabus</a></li>
+              <li><a href="https://vmellison.github.io/Fall2020/STAT207/index.html">Schedule</a></li>
+              <li><a href="https://vmellison.github.io/Fall2020/STAT207/assignments.html">Assignments</a></li>
+                <li><a href="https://vmellison.github.io/Fall2020/STAT207/staff.html">Staff and Contact Info</a></li>
+            </ul>
+          <h2>Questions?</h2>
+        <ul class="list-style2">
+          <li><a href="https://piazza.com/illinois/fall2020/stat207">Ask on Piazza</a></li>
+          <li><a href="mailto:vellison@illinois.edu">vellison@illinois.edu</a></li>
+            </ul>               
+        <h2>Tech Guides</h2>
+        <ul class="list-style2">
+          <li><a href="https://piazza.com/illinois/fall2020/stat207/datascience-setup.html">Data Science Tools Setup</a></li>
+          <li><a href="https://piazza.com/illinois/fall2020/stat207/datascience-setup.html">Git Setup</a></li>
+          <li><a href="https://piazza.com/illinois/fall2020/stat207/giterrors.html">Common Git Errors</a></li>
+          <li><a href="https://piazza.com/illinois/fall2020/stat207/classnotes.html">Download Class Notebooks</a></li>          
+          <li><a href="https://piazza.com/illinois/fall2020/stat207/cli.html">Using Command Line</a></li>
+            </ul>  
+                          
+			</div>
+			<div id="col1">
+                   <span style="color: #3366ff;"> <font size="7"><b>Fall 2020 - STAT207  </br> Data Science Exploration </font></b></font></span> <br />
+           <br /> 
+					<span style="color: #339966;"><font size="6"><b>Lab 1: Data Science Setup</font></b></span> <br />
+        </br>
+
+
+
+        <div class="card box-shadow p-2">
+  <div class="card-body">
+<h3 id="academic-integrity"><span style="color: #3366ff;"><b>Overview</b></span></h3>
+    <p>
+      <i>In this first lab, you will set up your account and computer for Data Science Exploration and begin to work with Python notebooks</i>
+    </p>
+    <div><b>Source Branch</b>: <code>lab_01</code><br></div>
+    <div><b>Due Date</b>: Committed and pushed to git <b>before</b> <span style="color: #3366ff;">August 31, 2020 at 11:59pm CST</span></div>
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body reduce-h-tags">
+
+Overview
+
+Data Science requires tools to help us learn about data.  In this lab, you will accomplish two major things:
+
+1. Setting your account and computer up for Data Science Exploration.
+2. Working with your first Python notebook for STAT 207.
+
+</br></br>
+
+<h2 id="part-1a-installing-software-tools"><span style="color: #3366ff;"><b>Part 1: Software and Tools for Data Science</b></span></h2>
+
+
+<p>The first half of this lab will be spent getting you all set up for the semester – you will only need to do this once.</p>
+
+<h2 id="part-1a-installing-software-tools">Part 1a: Installing Software Tools</h2>
+
+<p>To begin to do Data Science, you need a few basic tools installed on your computer.  All of these tools are free, open-source and industry standard.  We have prepared guides based on what type of computer you have:</p>
+
+<ul>
+  <li><a href="../../resources/windows-setup/">Windows Setup Guide</a></li>
+  <li><a href="../../resources/osx-setup/">Mac OSX Setup Guide</a></li>
+</ul>
+
+<h2 id="part-1b-creating-your-stat-207-git-repository">Part 1b: Creating your STAT 207 <code class="highlighter-rouge">git</code> repository</h2>
+
+<p>When working in Data Science, you will want to store all of your code and data together, in the cloud, in a “repository”.  For this class, we will be using an Illinois-hosted repository called GitHub Enterprise.</p>
+
+<ul>
+  <li><a href="../../resources/git/">Follow our guide to set up <code class="highlighter-rouge">git</code> for Data Science Exploration</a></li>
+</ul>
+
+<h2 id="part-1c-set-up-your-python-notebook">Part 1c: Set up your Python notebook</h2>
+
+<p>In Data Science, all of our programming will be done in “notebooks”.  Your python install will need a few <strong>libraries</strong>
+in order to run the notebooks.  Using your command line, run the following:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda install jupyter
+conda install pandas
+conda install matplotlib
+conda install seaborn
+</code></pre></div></div>
+
+<p>This might take a couple of minutes.  You will need to press [Enter] to confirm you want to install of of the packages (the option [y]/n shows that <code class="highlighter-rouge">y</code> is default when you choose no option).</p>
+
+<p>You can check what has been installed already using the command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda list
+</code></pre></div></div>
+
+</br></br>
+
+<h2 id="part-1a-installing-software-tools"><span style="color: #3366ff;"><b>Part 2: Complete the “lab_01” Notebook</b></span></h2>
+
+
+<p>Using your command line, navigate to your <code class="highlighter-rouge">stat207</code> repository (<code class="highlighter-rouge">cd Desktop</code> -&gt; <code class="highlighter-rouge">cd stat207</code> -&gt; <code class="highlighter-rouge">cd NETID</code>), replacing NETID with your own, and fetch the notebook from our release repository by running the following two <code class="highlighter-rouge">git</code> commands:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch release
+git merge release/lab_01 -m "Merging initial files"
+</code></pre></div></div>
+
+<p><strong>ONLY IF you get an error</strong> related to unrelated histories, use:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git merge release/lab_01 --allow-unrelated-histories -m "Merging initial files" 
+</code></pre></div></div>
+
+<p>Open the notebook with the command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter notebook
+</code></pre></div></div>
+
+<p>Inside of the notebook webpage:</p>
+
+<ul>
+  <li>Navigate into the folder containing <code class="highlighter-rouge">lab_01.ipynb</code> and open up the notebook</li>
+  <li>Follow the instructions inside of the notebook</li>
+</ul>
+
+<p>Whenever you are done, you should <strong>checkpoint</strong> (using File -&gt; Save Checkpoint in the notebook) your notebook to save your work.  Once your work is saved, you can exit the command line running the notebook with <strong>Ctrl + C</strong>.</p>
+
+<h3 id="turning-in-your-work">Turning in Your Work</h3>
+
+<p>When you’re ready to save your work online and/or submit your work, return to the command line and run:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add -A
+git commit -m "submission (or any message here)"
+git push origin master
+</code></pre></div></div>
+
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">Submitting Your Work</h3>
+
+    <p>
+      When you have completed working, you should always submit your work (<i>even if you're not quite finished</i>).
+      We will always grade the <b>latest push you made before the due date</b> (and ignore everything else) &mdash; submitting multiple times is okay and encouraged!
+    </p>
+
+    <p>
+      Inside of Jupyter:
+    </p>
+    <ul>
+      <li>Click <b>File -&gt; Save Checkpoint</b> to ensure your notebook is saved. </li>
+      <li>Click <b>File -&gt; Close and Halt</b> to exit your notebook. </li>
+      <li>Click <b>Quit</b> (in the top-right) to close the directory view.</li>
+    </ul>
+
+    <p>
+      After exiting Jupyter, your command prompt will return to accept new commands.  Using your command prompt, run:
+    </p>
+
+<pre><code>git add -A
+git commit -m "submission (or any message here)"
+git push origin master</code></pre>
+
+    <p>
+      You can verify your submission was made by visiting the web interface to github:
+    </p>
+
+    <ul>
+      <li>Visit <a href="https://github-dev.cs.illinois.edu/stat207-sp20/" target="_blank">https://github-dev.cs.illinois.edu/stat207-sp20/</a></li>
+      <li>Click on your NetID.</li>
+      <li>Ensure your last commit was a few seconds or 1-2 minutes ago.</li>
+    </ul>      
+  </div>
+</div>
+
+
+
+
+
+
+
+
+	</div>
+</div>
+<div id="footer">
+	<p>&copy; Untitled. All rights reserved. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a></p>
+</div>
+</body>
+</html>
