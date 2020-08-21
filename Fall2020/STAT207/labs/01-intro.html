@@ -13,7 +13,7 @@ Released   : 20130505
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Fall2020-STAT207-Syllabus</title>
+<title>Fall2020-STAT207-Lab01</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet" type="text/css" />
@@ -33,10 +33,10 @@ Released   : 20130505
 			<div id="col2">
         <h2>Class Resources</h2>
         <ul class="list-style2">
-              <li><a href="https://vmellison.github.io/Fall2020/STAT207/syllabus.html">Syllabus</a></li>
-              <li><a href="https://vmellison.github.io/Fall2020/STAT207/index.html">Schedule</a></li>
-              <li><a href="https://vmellison.github.io/Fall2020/STAT207/assignments.html">Assignments</a></li>
-                <li><a href="https://vmellison.github.io/Fall2020/STAT207/staff.html">Staff and Contact Info</a></li>
+              <li><a href="http://courses.las.illinois.edu/fall2020/stat207/syllabus.html">Syllabus</a></li>
+              <li><a href="http://courses.las.illinois.edu/fall2020/stat207/index.html">Schedule</a></li>
+              <li><a href="http://courses.las.illinois.edu/fall2020/stat207/assignments.html">Assignments</a></li>
+                <li><a href="http://courses.las.illinois.edu/fall2020/stat207/staff.html">Staff and Contact Info</a></li>
             </ul>
           <h2>Questions?</h2>
         <ul class="list-style2">
@@ -45,11 +45,11 @@ Released   : 20130505
             </ul>               
         <h2>Tech Guides</h2>
         <ul class="list-style2">
-          <li><a href="https://vmellison.github.io/Fall2020/STAT207/datascience-setup.html">Data Science Tools Setup</a></li>
-          <li><a href="https://vmellison.github.io/Fall2020/STAT207/datascience-setup.html">Git Setup</a></li>
-          <li><a href="https://vmellison.github.io/Fall2020/STAT207/giterrors.html">Common Git Errors</a></li>
-          <li><a href="https://vmellison.github.io/Fall2020/STAT207/classnotes.html">Download Class Notebooks</a></li>          
-          <li><a href="https://vmellison.github.io/Fall2020/STAT207/cli.html">Using Command Line</a></li>
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/datascience-setup.html">Data Science Tools Setup</a></li>
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/datascience-setup.html">Git Setup</a></li>
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/giterrors.html">Common Git Errors</a></li>
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/classnotes.html">Download Class Notebooks</a></li>          
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/cli.html">Using Command Line</a></li>
         </ul> 
                           
 			</div>
@@ -86,6 +86,10 @@ Data Science requires tools to help us learn about data.  In this lab, you will 
 
 </br></br>
 
+<h2 id="part-0-installing-software-tools"><span style="color: #3366ff;"><b>Part 0: General Class Folder</b></span></h2>
+<p>First, you should create a folder named 'stat207' (we recommend on your Desktop) to hold all of your Python notebooks.</p>
+
+
 <h2 id="part-1a-installing-software-tools"><span style="color: #3366ff;"><b>Part 1: Software and Tools for Data Science</b></span></h2>
 
 
@@ -96,7 +100,7 @@ Data Science requires tools to help us learn about data.  In this lab, you will 
 <p>To begin to do Data Science, you need a few basic tools installed on your computer.  All of these tools are free, open-source and industry standard.  We have prepared guides based on what type of computer you have:</p>
 
 <ul>
-  <li><a href="https://vmellison.github.io/Fall2020/STAT207/datascience-setup.html">Windows and MAC OS X Setup Guide</a></li>
+  <li><a href="http://courses.las.illinois.edu/fall2020/stat207/datascience-setup.html">Windows and MAC OS X Setup Guide</a></li>
 </ul>
 
 <h2 id="part-1b-creating-your-stat-207-git-repository">Part 1b: Creating your STAT 207 <code class="highlighter-rouge">git</code> repository</h2>
@@ -104,7 +108,7 @@ Data Science requires tools to help us learn about data.  In this lab, you will 
 <p>When working in Data Science, you will want to store all of your code and data together, in the cloud, in a “repository”.  For this class, we will be using an Illinois-hosted repository called GitHub Enterprise.</p>
 
 <ul>
-  <li><a href="https://vmellison.github.io/Fall2020/STAT207/git.html">Follow our guide to set up <code class="highlighter-rouge">git</code> for Data Science Exploration</a></li>
+  <li><a href="http://courses.las.illinois.edu/fall2020/stat207/git.html">Follow our guide to set up <code class="highlighter-rouge">git</code> for Data Science Exploration</a></li>
 </ul>
 
 <h2 id="part-1c-set-up-your-python-notebook">Part 1c: Set up your Python notebook</h2>
@@ -118,7 +122,19 @@ conda install matplotlib
 conda install seaborn
 </code></pre></div></div>
 
-<p>This might take a couple of minutes.  You will need to press [Enter] to confirm you want to install of of the packages (the option [y]/n shows that <code class="highlighter-rouge">y</code> is default when you choose no option).</p>
+<p><b>Potential Error Workaround: </b> IF you get an error about "conda not found" when trying to do this, you can also install these packages by doing the following.
+  <ul>
+    <li>Searching for the "miniconda" program you just downloaded, and run what should say "Anaconda Prompt."
+    <li>This will open up another command line window that is specifically for running python commands (for instance commands that install packages).</li>
+    <li>Run the code in this Anaconda Prompt instead</br>
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda install jupyter
+conda install pandas
+conda install matplotlib
+conda install seaborn
+</code></pre></div></div></li>
+  </ul>
+
+<p>This might take a couple of minutes.  You will need to type [y] to confirm you want to install of of the packages (the option [y]/n shows that <code class="highlighter-rouge">y</code> is default when you choose no option).</p>
 
 <p>You can check what has been installed already using the command:</p>
 
@@ -129,7 +145,7 @@ conda install seaborn
 
 <h2 id="part-1a-installing-software-tools"><span style="color: #3366ff;"><b>Part 2: Complete the “lab_01” Notebook</b></span></h2>
 
-
+<h2 id="part-1c-set-up-your-python-notebook">Part 2a: Fetching the Lab Assignment from the Class Respository</h2>
 <p>Using your command line, navigate to your <code class="highlighter-rouge">stat207</code> repository (<code class="highlighter-rouge">cd Desktop</code> -&gt; <code class="highlighter-rouge">cd stat207</code> -&gt; <code class="highlighter-rouge">cd NETID</code>), replacing NETID with your own, and fetch the notebook from our release repository by running the following two <code class="highlighter-rouge">git</code> commands:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch release
@@ -141,11 +157,30 @@ git merge release/lab_01 -m "Merging initial files"
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git merge release/lab_01 --allow-unrelated-histories -m "Merging initial files" 
 </code></pre></div></div>
 
+<h2 id="part-1c-set-up-your-python-notebook">Part 2b: Opening the Jupyter Notebook</h2>
+<p><b>One way to open the notebook (may not work) </b> 
 <p>Open the notebook with the command:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter notebook
 </code></pre></div></div>
+<p><b>Another way to open the notebook: </b> IF you get an error about "jupyter is not recognized" when trying to do this, you can also open the notebook by doing the following.
+  <ul>
+    <li>Searching for the "miniconda" program you just downloaded, and run what should say "Anaconda Prompt."
+    <li>This will open up the Anaconda Command Line window that is specifically for running python commands (for instance commands that install python packages or launch jupyter notebooks).</li>
+    <li>If your Anaconda Command line window is not already there, navigate to your <code class="highlighter-rouge">stat207</code> repository (<code class="highlighter-rouge">cd Desktop</code> -&gt; <code class="highlighter-rouge">cd stat207</code></li>
+    <li>Run the code in this Anaconda Command Line Prompt window instead</br>
+      <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter notebook
+</code></pre></div></div></li>
+  </ul>
 
+<p><b>Also another way to open the notebook: </b> 
+  <ul>
+    <li>Search for the the program "jupyter" on your computer and run it.
+    <li>This will open a window that displays the file system of your computer. Navigate to the folder your notebook is saved in by clicking on the folder links.</li>
+    <li>Once you've found your notebook, click on it to open it</li>
+  </ul>
+
+<h2 id="part-1c-set-up-your-python-notebook">Part 2c: Editing the Jupyter Notebook (aka Working on the Assignment)</h2>
 <p>Inside of the notebook webpage:</p>
 
 <ul>
@@ -155,7 +190,7 @@ git merge release/lab_01 -m "Merging initial files"
 
 <p>Whenever you are done, you should <strong>checkpoint</strong> (using File -&gt; Save Checkpoint in the notebook) your notebook to save your work.  Once your work is saved, you can exit the command line running the notebook with <strong>Ctrl + C</strong>.</p>
 
-<h3 id="turning-in-your-work">Turning in Your Work</h3>
+<h2 id="part-1c-set-up-your-python-notebook">Part 2d: Saving/Submitting your Notebook back to the Class Repository</h2>
 
 <p>When you’re ready to save your work online and/or submit your work, return to the command line and run:</p>
 
@@ -195,6 +230,7 @@ git push origin master
 git commit -m "submission (or any message here)"
 git push origin master</code></pre>
 
+<h2 id="part-1c-set-up-your-python-notebook">Part 2e: Verifying your Submission on Github</h2>
     <p>
       You can verify your submission was made by visiting the web interface to github:
     </p>
