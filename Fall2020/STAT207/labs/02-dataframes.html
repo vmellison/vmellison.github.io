@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : WaterDrop 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130505
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fall2020-STAT207-Lab01</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+
+	<!-- end #header -->
+
+	<div id="banner"><img src="images/header-image-bg.jpg" width="1200" height="100" alt="" /></div>
+	<div id="two-columns">
+		<div class="content">
+			<div id="col2">
+        <h2>Class Resources</h2>
+        <ul class="list-style2">
+              <li><a href="http://courses.las.illinois.edu/fall2020/stat207/syllabus.html">Syllabus</a></li>
+              <li><a href="http://courses.las.illinois.edu/fall2020/stat207/index.html">Schedule</a></li>
+              <li><a href="http://courses.las.illinois.edu/fall2020/stat207/assignments.html">Assignments</a></li>
+                <li><a href="http://courses.las.illinois.edu/fall2020/stat207/staff.html">Staff and Contact Info</a></li>
+            </ul>
+          <h2>Questions?</h2>
+        <ul class="list-style2">
+          <li><a href="https://piazza.com/illinois/fall2020/stat207">Ask on Piazza</a></li>
+          <li><a href="mailto:vellison@illinois.edu">vellison@illinois.edu</a></li>
+            </ul>               
+        <h2>Tech Guides</h2>
+        <ul class="list-style2">
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/datascience-setup.html">Data Science Tools Setup</a></li>
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/git.html">Git Setup</a></li>
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/giterrors.html">Common Git Errors</a></li>
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/classnotes.html">Download Class Notebooks</a></li>          
+          <li><a href="http://courses.las.illinois.edu/fall2020/stat207/cli.html">Using Command Line</a></li>
+        </ul> 
+                          
+			</div>
+			<div id="col1">
+                   <span style="color: #3366ff;"> <font size="7"><b>Fall 2020 - STAT207  </br> Data Science Exploration </font></b></font></span> <br />
+           <br /> 
+					<span style="color: #339966;"><font size="6"><b>Lab 2: Data Frames</font></b></span> <br />
+        </br>
+
+
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">Data Frames</h3>
+    <p>
+      <i>In this lab you will learn more about data structure in Python, read external data from csv files, and perform basic data extraction, analytics, and visualization.</i>
+    </p>
+    <div><b>Source Branch</b>: <code>lab_02</code><br></div>
+    <div><b>Due Date</b>: Committed and pushed to git <b>before</b><span style="color: #3366ff;"> September  8, 2020 at 11:59pm CST</span></div>
+  </div>
+</div>
+
+</br>
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body reduce-h-tags">
+    <h1 id="overview">Overview</h1>
+
+<p>Data Science requires tools to help us learn about data.  In this lab, you will accomplish several major things:</p>
+
+<ol>
+  <li>Learn more about data types in Python</li>
+  <li>Learn more about the <code class="highlighter-rouge">pandas</code> library</li>
+  <li>Use <code class="highlighter-rouge">pandas</code> to read CSV files</li>
+  <li>Perform basic data processing, summary and visualization using <code class="highlighter-rouge">pandas</code>, <code class="highlighter-rouge">matplotlib.pyplot</code> and <code class="highlighter-rouge">seaborn</code></li>
+</ol>
+
+<h2 id="step-1-retrieve-the-lab-using-git">Step 1: Retrieve the lab using git</h2>
+
+<p>Using your command line, navigate to your <code class="highlighter-rouge">stat207</code> repository (<code class="highlighter-rouge">cd Desktop</code> -&gt; <code class="highlighter-rouge">cd stat207</code> -&gt; <code class="highlighter-rouge">cd NETID</code>) and fetch the notebook from our release repository by running the following two <code class="highlighter-rouge">git</code> commands:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch release
+git merge release/lab_02 -m "Merging initial files"
+</code></pre></div></div>
+
+<p><strong>ONLY IF you get an error</strong> related to unrelated histories, use:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git merge release/lab_02 --allow-unrelated-histories -m "Merging initial files" 
+</code></pre></div></div>
+
+<h2 id="step-2-open-the-notebook">Step 2: Open the notebook</h2>
+
+<p>Open the notebook with the command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter notebook
+</code></pre></div></div>
+
+<p>Inside of the notebook webpage:</p>
+
+<ul>
+  <li>Navigate into the folder <code class="highlighter-rouge">lab_02</code></li>
+  <li>Open up the <code class="highlighter-rouge">lab_02.ipynb</code> notebook</li>
+  <li>Follow the instructions inside of the notebook</li>
+</ul>
+
+<p>Whenever you are done, you should <strong>checkpoint</strong> (using File -&gt; Save Checkpoint in the notebook) your notebook to save your work.  Once your work is saved, you can:</p>
+
+<ul>
+  <li>Use <code class="highlighter-rouge">File</code> -&gt; <code class="highlighter-rouge">Close and Halt</code> on the notebook</li>
+  <li>Use <code class="highlighter-rouge">Quit</code> (in the top-right) on the directory view to completely exit jupyter</li>
+</ul>
+
+<h2 id="step-3-submitting-your-work">Step 3: Submitting your work</h2>
+
+<p>When you’re ready to save your work online and/or submit your work, return to the command line and run:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add -A
+git commit -m "submission (or any message here)"
+git push origin master
+</code></pre></div></div>
+
+  </div>
+</div>
+
+<hr>
+
+<div class="card box-shadow p-2">
+  <div class="card-body">
+    <h3 class="card-title">Submitting Your Work</h3>
+
+    <p>
+      When you have completed working, you should always submit your work (<i>even if you're not quite finished</i>).
+      We will always grade the <b>latest push you made before the due date</b> (and ignore everything else) &mdash; submitting multiple times is okay and encouraged!
+    </p>
+
+    <p>
+      Inside of Jupyter:
+    </p>
+    <ul>
+      <li>Click <b>File -&gt; Save Checkpoint</b> to ensure your notebook is saved. </li>
+      <li>Click <b>File -&gt; Close and Halt</b> to exit your notebook. </li>
+      <li>Click <b>Quit</b> (in the top-right) to close the directory view.</li>
+    </ul>
+
+    <p>
+      After exiting Jupyter, your command prompt will return to accept new commands.  Using your command prompt, run:
+    </p>
+
+<pre><code>git add -A
+git commit -m "submission (or any message here)"
+git push origin master</code></pre>
+
+    <p>
+      You can verify your submission was made by visiting the web interface to github:
+    </p>
+
+    <ul>
+      <li>Visit <a href="https://github-dev.cs.illinois.edu/stat207-fa20/" target="_blank">https://github-dev.cs.illinois.edu/stat207-fa20/</a></li>
+      <li>Click on your NetID.</li>
+      <li>Ensure your last commit was a few seconds or 1-2 minutes ago.</li>
+    </ul>      
+  </div>
+</div>
+
+
+
+
+
+
+
+
+	</div>
+</div>
+<div id="footer">
+	<p>&copy; Untitled. All rights reserved. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. Photos by <a href="http://fotogrph.com/">Fotogrph</a></p>
+</div>
+</body>
+</html>
